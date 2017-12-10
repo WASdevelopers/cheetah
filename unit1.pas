@@ -33,7 +33,7 @@ var
   Form1: TForm1;
   presses: integer;
 
-implementation
+implementation       xxx
 
 
 {$R *.lfm}
