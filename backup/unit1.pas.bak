@@ -5,7 +5,7 @@ unit Unit1;
 interface
 
 uses
-  int2stringXXX,
+  integer2string,
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls;
 
 type

@@ -43,7 +43,7 @@ implementation
 
 procedure TForm1.Button1Click(Sender: TObject);
 begin
-  if Button1.tag = 0 then
+if Button1.tag = 0 then
   begin
     Button1.caption := 'Press again';
     Button1.tag     := 1;
