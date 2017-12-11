@@ -5,8 +5,8 @@ unit Unit1;
 interface
 
 uses
-  integer2string,
-  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls;
+ //  iinteger2string,
+   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls;
 
 type
 
@@ -35,6 +35,9 @@ var
 
 implementation
 
+uses
+   my_useful_functions;
+
 
 {$R *.lfm}
 
@@ -53,7 +56,7 @@ if Button1.tag = 0 then
     Button1.caption := 'and Again';
     presses := presses +1;
   end;
-  Label1.Caption := Int2string(presses);
+  Label1.Caption := my_integer2string(presses);
 end;
 
 
@@ -66,7 +69,7 @@ end;
 procedure TForm1.Button3Click(Sender: TObject);
 begin
   presses := 0;
-  Label1.Caption  := Int2string(presses);
+  Label1.Caption  := my_integer2string(presses);
   Button1.caption := 'Press';
   Button1.tag     := 0;
 

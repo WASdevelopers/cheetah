@@ -47,9 +47,8 @@
         <UnitName Value="Unit1"/>
       </Unit1>
       <Unit2>
-        <Filename Value="useful_functions/intger2stringxxx.pas"/>
+        <Filename Value="useful_functions/iinteger2string.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="int2stringXXX"/>
       </Unit2>
     </Units>
   </ProjectOptions>
